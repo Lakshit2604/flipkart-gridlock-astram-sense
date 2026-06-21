@@ -1,0 +1,23 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Bengaluru Traffic Event Intelligence System (BTEIS)
+# Requirements — Flipkart Hackathon Round 2
+#
+# Install with:  pip install -r requirements.txt
+# Python 3.10+   required
+# ──────────────────────────────────────────────────────────────────────────────
+
+# ── Data manipulation ─────────────────────────────────────────────────────────
+pandas==2.3.3
+numpy==2.2.6
+
+# ── Machine learning ──────────────────────────────────────────────────────────
+lightgbm==4.6.0          # gradient-boosted trees for duration & severity models
+scikit-learn==1.8.0      # Ridge baseline, StandardScaler, train/test split, metrics
+
+# ── Visualisation (notebook EDA) ─────────────────────────────────────────────
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# ── Dashboard ────────────────────────────────────────────────────────────────
+streamlit==1.55.0        # interactive web dashboard
+plotly==6.6.0            # charts: scatter, bar, choropleth, Scattermap
